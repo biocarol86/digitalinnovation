@@ -8,11 +8,14 @@ class Pessoa {
     private set //Só posso mexer no cpf no escopo da classe (set)-> função que atribui valor
 
 
+    constructor()
+    fun pessoaInfo() = "$nome e $cpf"
+
 }
 fun main (){
     val jether = Pessoa()
     
-    println(jether)
+    println(jether.pessoaInfo())
     println(jether.nome)
     println(jether.cpf)
 }
