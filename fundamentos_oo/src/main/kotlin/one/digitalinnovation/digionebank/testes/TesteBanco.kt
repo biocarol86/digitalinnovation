@@ -8,8 +8,8 @@ fun main() {
     println(digiOneBank.nome)
     println(digiOneBank.numero)
 
-    val banco2 = digiOneBank.copy(nome = "Banco2")
-
+    val banco2 = digiOneBank.copy(nome = "Banco2") //cria uma cópia se necessário modificar alguma informação
+                                                   //quando se coloca val não pode ser alterado
     println(banco2.info())
 
 }
